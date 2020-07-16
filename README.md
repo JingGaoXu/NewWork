@@ -1,3 +1,16 @@
+
+//在APP build.gradle 中添加
+        implementation 'com.github.JingGaoXu:NewWork:-1.0.0'
+//在项目的build.gradle中添加
+   	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }   //此区域
+		}
+	}
+
+
+
 # NewWork
 监听Android手机的网络切换，通过注解方式进行注册并进行监听，大大方便开发人员对于网络变换重新请求接口渲染页面的逻辑。
 
