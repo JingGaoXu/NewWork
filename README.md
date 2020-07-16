@@ -1,6 +1,7 @@
 
 //在APP build.gradle 中添加
         implementation 'com.github.JingGaoXu:NewWork:-1.0.0'
+	
 //在项目的build.gradle中添加
    	allprojects {
 		repositories {
